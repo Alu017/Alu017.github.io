@@ -1,0 +1,20 @@
+.container-fluid {
+    background-color: orange;
+    padding: 15px;
+}
+.row {
+    background-color: orange;
+    padding: 15px;
+}
+
+.col-lg-6 {
+    background-color: black;
+    padding: 15px;
+}
+
+.col-lg-12 {
+    color: black;
+    font-family: "Chiller";
+    font-size: 50px;
+    text-align: center;
+}
