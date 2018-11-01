@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: orange;
+    padding: 15px;
+}
+
+.grid-item {
+    background-color: black;
+    padding: 15px;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    color: white;
+    font-family: "Chiller";
+    font-size: 50px;
+    text-align: center;
+}
