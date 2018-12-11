@@ -1,0 +1,286 @@
+/*nav bar*/
+body {
+    background-image: linear-gradient(white, ghostwhite, white);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 100%;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.25s ease;
+}
+
+.nav a:hover {
+    background-color: aliceblue;
+}
+
+.active {
+    background-color: lightsteelblue;
+}
+
+/*home*/
+.img-home {
+    text-align: center;
+    padding: 15px;
+}
+
+.parallax {
+    background-image: url(images/daypack_5.jpg);
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url(images/home_1.jpg);
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-home {
+    font-family: "Century Gothic";
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.text-home {
+    font-family: "Century Gothic";
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.link-1 {
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+.link-2 {
+    margin: 10px;
+    margin-bottom: 20px;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+.design-link-1:link {
+  background-color: skyblue;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.design-link-1:visited {
+  color: white;
+}
+
+.design-link-1:hover {
+  background-color: powderblue;
+}
+
+.design-link-2:link {
+  background-color: steelblue;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.design-link-2:visited {
+  color: white;
+}
+
+.design-link-2:hover {
+  background-color: midnightblue;
+}
+
+/*design*/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.design-bg {
+    background-image: url(images/design.JPG);
+    height: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.design-bg-2 {
+    background-image: url(images/specs.JPG);
+    height: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.design-bg-3 {
+    background-image: url(images/spec2.JPG);
+    height: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-container-design {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+
+.grid-item-design {
+    font-family: "Century Gothic";
+    font-size: 25px;
+    background-image: linear-gradient(ghostwhite, white, ghostwhite);
+    padding: 30px;
+}
+.text-design {
+    font-size: 18px;
+}
+
+/*products*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 15px;
+}
+
+.grid-item {
+    background-image: linear-gradient(aliceblue, white);
+    padding: 12px;
+}
+
+.item1 {
+    background-image: none;
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    color: black;
+    font-family: "Century Gothic";
+    font-size: 25px;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    padding: 15px;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+    font-family: "Century Gothic";
+  background: black;
+  width: 100%;
+  transition: .35s ease;
+  opacity: 0;
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.text-related {
+    font-size: 15px;
+    padding: 15px;
+    font-family: "Century Gothic";
+    text-align: left;
+}
+
+.product-btn {
+    font-family: "Century Gothic";
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*solgaard*/
+.img-solgaard {
+    text-align: center;
+    padding: 15px;
+}
+
+.img-solgaard img {
+    padding: 50px;
+}
+
+.text-solgaard {
+    font-size: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+/*FAQ dropdown*/
+
+.dropdown {
+    text-align: center;
+    padding: 15px;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.drop-btn {
+    font-size: 30px;
+    font-family: "Century Gothic";
+    background-color: black;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.drop-btn:hover {
+    background-color: skyblue;
+}
+
+.questions {
+    display: none;
+    background-image: linear-gradient(ghostwhite, aliceblue, ghostwhite);
+    overflow: hidden;
+}
+
+.questions a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display: block;}
+
+.text-FAQ {
+    font-size: 18px;
+    font-family: "Century Gothic";
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
